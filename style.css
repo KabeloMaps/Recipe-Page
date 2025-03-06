@@ -1,4 +1,28 @@
-body {
-  .Header container {
-  }
+* {
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100%; /* Adjust as needed */
+}
+.section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+img {
+  width: 746px;
+  padding: 40px;
+
+  border-radius: 50px; /* Adjust the value for more or less rounding */
+}
+#description-header {
+  font-family: "Young Serif", serif;
+}
+
+.body {
+  margin: auto;
+  max-width: fit-content;
 }
