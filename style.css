@@ -20,9 +20,57 @@ img {
 }
 #description-header {
   font-family: "Young Serif", serif;
+  text-align: center; /* Aligns the header to the center */
 }
 
-.body {
+.body,
+footer {
   margin: auto;
   max-width: fit-content;
+}
+
+p,
+li,
+td {
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+.prep-description {
+  background-color: #fff7fb;
+  padding: 1em;
+}
+hr {
+  border: none;
+  border-top: 0.5px solid rgb(27, 26, 26); /* Black underline */
+  margin: 20px 0; /* Adds space before and after the line */
+}
+ol li::marker {
+  color: #854632; /* Change the color of the numbers */
+}
+
+ul li::marker {
+  color: #854632; /* Change the color of the numbers */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Underline between the first and second row */
+tr {
+  border-bottom: 0.5px solid rgb(27, 26, 26); /* Black underline */
+}
+
+h1 {
+  font-size: 40px;
+  padding: 0%;
+  margin: 0%;
 }
